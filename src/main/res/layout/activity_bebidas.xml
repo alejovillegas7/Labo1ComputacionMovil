@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ActivityBebidas">
+
+    <ImageView
+        android:id="@+id/imagenSeleccionada"
+        android:layout_width="184dp"
+        android:layout_height="177dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="219dp"
+        android:layout_marginTop="17dp"
+        app:srcCompat="@drawable/suma"
+        tools:layout_editor_absoluteX="202dp"
+        tools:layout_editor_absoluteY="16dp" />
+
+    <ImageView
+        android:id="@+id/imagenGuardada"
+        android:layout_width="184dp"
+        android:layout_height="177dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="360dp"
+        app:srcCompat="@drawable/touchlogo"
+        tools:layout_editor_absoluteX="202dp"
+        tools:layout_editor_absoluteY="16dp" />
+
+    <Button
+        android:id="@+id/seleccionarImagen"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="46dp"
+        android:layout_marginEnd="259dp"
+        android:text="@string/botonBuscar"
+        tools:layout_editor_absoluteX="40dp"
+        tools:layout_editor_absoluteY="16dp" />
+
+    <EditText
+        android:id="@+id/nombreTextView"
+        android:layout_width="181dp"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/imagenSeleccionada"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="23dp"
+        android:layout_marginBottom="-61dp"
+        android:ems="10"
+        android:hint="@string/nombre"
+        android:inputType="textVisiblePassword|textCapSentences|textFilter"
+        tools:layout_editor_absoluteX="21dp"
+        tools:layout_editor_absoluteY="226dp" />
+
+    <EditText
+        android:id="@+id/precio"
+        android:layout_width="116dp"
+        android:layout_height="42dp"
+        android:layout_alignEnd="@+id/nombreTextView"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="73dp"
+        android:layout_marginBottom="417dp"
+        android:ems="10"
+        android:hint="@string/Precio"
+        android:inputType="number"
+        tools:layout_editor_absoluteX="255dp"
+        tools:layout_editor_absoluteY="228dp" />
+
+    <EditText
+        android:id="@+id/ingredientes"
+        android:layout_width="194dp"
+        android:layout_height="114dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="210dp"
+        android:layout_marginTop="202dp"
+        android:ems="10"
+        android:hint="@string/Ingredientes"
+        android:inputType="textFilter|textMultiLine" />
+
+    <EditText
+        android:id="@+id/informaciónGuardada"
+        android:layout_width="193dp"
+        android:layout_height="213dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="208dp"
+        android:layout_marginTop="356dp"
+        android:ems="10"
+        android:hint="@string/InfoGuardada"
+        android:inputType="textFilter|textMultiLine" />
+
+    <Button
+        android:id="@+id/botonGuardarInfo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="14dp"
+        android:layout_marginTop="271dp"
+        android:hint="@string/GuardarInfo"
+        android:onClick="guardarInfo"
+        android:text="@string/GuardarInfo" />
+
+</RelativeLayout>

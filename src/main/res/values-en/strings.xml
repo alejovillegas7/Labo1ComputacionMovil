@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">LabsCM20191</string>
+    <string name="GuardarInfo">Save Information</string>
+    <string name="InfoGuardada">Information Saved</string>
+    <string name="Ingredientes">Ingredients</string>
+    <string name="Precio">Price</string>
+    <string name="botonBuscar">Search Image</string>
+    <string name="checkMañana">Available in the morning</string>
+    <string name="checkTarde">Available in the afternoon</string>
+    <string name="checkNoche">Available at night</string>
+    <string name="menu_Limpiar">Clean form</string>
+    <string name="menu_salir">Exit</string>
+    <string name="nombre">Name</string>
+    <string name="radioEntrada">Entrance</string>
+    <string name="radioPlatoFuerte">Main course</string>
+    <string name="tiempo">Preparation time</string>
+    <string name="bebidas">Drinks</string>
+    <string name="platos">Food Dishes</string>
+</resources>

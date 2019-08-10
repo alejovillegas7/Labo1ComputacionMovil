@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">LabsCM20191</string>
+    <string name="botonBuscar">Buscar Imagen</string>
+    <string name="nombre">Nombre</string>
+    <string name="checkMañana">Horario en la mañana</string>
+    <string name="checkTarde">Horario en la tarde</string>
+    <string name="platos">Platos</string>
+    <string name="bebidas">Bebidas</string>
+    <string name="checkNoche">Horario en la noche</string>
+    <string name="radioEntrada">Entrada</string>
+    <string name="radioPlatoFuerte">Plato Fuerte</string>}
+    <string name="tiempo">Tiempo Preparación</string>
+    <string name="Ingredientes">Ingredientes</string>
+    <string name="Precio">Precio</string>
+    <string name="GuardarInfo">Guardar Información</string>
+    <string name="InfoGuardada">Información Guardada</string>
+    <string name="menu_Limpiar">Limpiar</string>
+    <string name="menu_salir">Salir</string>
+
+</resources>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">LabsCM20191</string>
+    <string name="tiempo">Tempo di preparazione</string>
+    <string name="radioPlatoFuerte">Piatto forte</string>
+    <string name="radioEntrada">Biglietti</string>
+    <string name="nombre">Nome</string>
+    <string name="menu_salir">Uscita</string>
+    <string name="menu_Limpiar">Ripulire</string>
+    <string name="checkTarde">Disponibile nel pomeriggio</string>
+    <string name="checkNoche">Disponibile di notte</string>
+    <string name="checkMañana">Disponibile al mattino</string>
+    <string name="botonBuscar">Cerca immagine</string>
+    <string name="Precio">Prezzo</string>
+    <string name="Ingredientes">Ingredienti</string>
+    <string name="InfoGuardada">Informazioni salvate</string>
+    <string name="GuardarInfo">Salva informazioni</string>
+    <string name="platos">Piatti</string>
+    <string name="bebidas">Bevande</string>
+</resources>
